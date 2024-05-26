@@ -6,7 +6,6 @@ on:
       - main  
   workflow_dispatch:
 
-
 env:
   APPLICATION_PUBLISH_PROFILE: ${{ secrets.APP_PUBLISH_PROFILE }}
   WEBAPP_NAME: "medium-next-app-service-deploy"
